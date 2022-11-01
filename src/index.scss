@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 20px 40px;
+  font-family: 'Poppins', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.drawer {
+  .MuiDrawer-paper {
+    width: 300px;
+  }
+
+  .drawer-container{
+    padding: 20px;
+
+    .drawer-header{
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .drawer-title {
+        font-weight: 500;
+      }
+
+      .drawer-options {
+
+      }
+    }
+  }
+}

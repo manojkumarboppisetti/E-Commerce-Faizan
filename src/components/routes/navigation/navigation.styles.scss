@@ -1,0 +1,21 @@
+
+
+.nav-links{
+  display: flex;
+  width: 40%;
+  height: 100%;
+  margin-bottom: 25px;
+  align-items: center;
+  padding-top:33px;
+  justify-content: flex-end;
+}
+ .nav-links> a{
+  padding-right: 16px;
+}
+.nav-links> a.active{
+   font-weight: 600;
+ }
+.current{
+  padding-right: 16px;
+  color: green;
+}

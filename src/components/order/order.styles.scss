@@ -1,0 +1,70 @@
+.order {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+
+  text-align: center;
+}
+
+.delivered {
+  background-color: #aeffae;
+}
+
+.cancelled {
+  background-color: #ffbebe;
+}
+
+.shipped {
+  background-color: #ffffb4;
+}
+
+.order_placed {
+  background-color: #ffd78d;
+}
+
+.out_for_delivery {
+  background-color: #abffff;
+}
+
+.orders-component {
+  display: flex;
+  width: 100%;
+}
+
+.order-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .order-list-title {
+    font-weight: 500;
+  }
+
+  .order-list-options {
+
+  }
+}
+
+.order-list-container {
+  width: 100%;
+  margin: auto;
+}
+
+.check-input {
+  padding: 20px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.order-info {
+  padding-left: 50px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.clear-btn {
+  margin-left: 35px;
+}
